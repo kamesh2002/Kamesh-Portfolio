@@ -6,53 +6,56 @@ import spotifyImage from "../assets/spotify-2.svg";
 import chatImage from "../assets/logo_big.svg";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: 'Twitter Clone',
-      description:
-        'A simplified clone of Twitter with functionality like posting tweets, liking, and responsive UI. Frontend only.',
-      image: twitterImage,
-      techStack: ['React', 'TailwindCSS'],
-      githubFrontend: 'https://github.com/kamesh2002/Twitter-Clone',
-      githubBackend: '',
-      liveDemo: '#',
-      featured: false,
-    },
-    {
-      title: 'Chat Meet App',
-      description:
-        'A real-time video chat application using WebRTC and Socket.io with separate frontend and backend codebases.',
-      image: chatImage,
-      techStack: ['React', 'Node.js', 'Socket.io', 'WebRTC'],
-      githubFrontend: 'https://github.com/kamesh2002/Chat-Meet/tree/master/client-1',
-      githubBackend: 'https://github.com/kamesh2002/Chat-Meet/tree/master/server-1',
-      liveDemo: '#',
-      featured: false,
-    },
-    {
-      title: 'Spotify Clone',
-      description:
-        'Frontend-only Spotify clone built using React and TailwindCSS with basic routing and responsive design.',
-      image: spotifyImage,
-      techStack: ['React', 'TailwindCSS'],
-      githubFrontend: 'https://github.com/kamesh2002/FEND-45-Clone',
-      githubBackend: '',
-      liveDemo: 'https://fend-45-clone.vercel.app/',
-      featured: false,
-    },
-    {
-      title: 'Task Scheduler',
-      description:
-        'A simple todo/task management app allowing users to create, track and delete daily tasks. Built with React.',
-      image:
-        'https://images.pexels.com/photos/6801649/pexels-photo-6801649.jpeg?auto=compress&cs=tinysrgb&w=600',
-      techStack: ['React'],
-      githubFrontend: 'https://github.com/kamesh2002/FSD-Guvi/tree/master/Day-23/Todo',
-      githubBackend: '',
-      liveDemo: 'https://fsd-todo-hazel.vercel.app/',
-      featured: false,
-    },
-  ];
+ const projects = [
+
+  {
+    title: 'Chat-Meet',
+    description:
+      'A real-time chat application built with the MERN stack. Features include user authentication, WebSocket-based messaging, and responsive UI.',
+    image: 'https://placehold.co/600x400/E0F2F7/333333?text=Chat-Meet',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.IO'],
+    githubFrontend: 'https://github.com/kamesh2002/MainChat-Meet',
+    githubBackend: 'https://github.com/kamesh2002/MainChat-Meet',
+    liveDemo: 'https://main-chat-meet-git-master-kamesh2002s-projects.vercel.app',
+    featured: false,
+  },
+  {
+    title: 'Budget-Track',
+    description:
+      'A full-stack expense tracking application using the MERN stack. Users can add, edit, and delete expenses with secure authentication and data persistence.',
+    image: 'https://placehold.co/600x400/E0F2F7/333333?text=Budget-Track',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js'],
+    githubFrontend: 'https://github.com/kamesh2002/Budget-Track',
+    githubBackend: 'https://github.com/kamesh2002/Budget-Track',
+    liveDemo: 'https://budget-track-lemon.vercel.app/',
+    featured: false,
+  },
+  {
+    title: 'Twitter Clone',
+    description:
+      'A simplified clone of Twitter with functionality like posting tweets, liking, and responsive UI. Frontend only.',
+    image: 'https://placehold.co/600x400/E0F2F7/333333?text=Twitter+Clone',
+    techStack: ['React', 'TailwindCSS'],
+    githubFrontend: 'https://github.com/kamesh2002/Twitter-Clone',
+    githubBackend: 'https://github.com/kamesh2002/Twitter-Clone',
+    liveDemo: 'https://t-fsd-x.onrender.com/',
+    featured: false,
+  },
+  
+  {
+    title: 'Spotify Clone',
+    description:
+      'Frontend-only Spotify clone built using React and TailwindCSS with basic routing and responsive design.',
+    image: 'https://placehold.co/600x400/E0F2F7/333333?text=Spotify+Clone',
+    techStack: ['React', 'TailwindCSS'],
+    githubFrontend: 'https://github.com/kamesh2002/FEND-45-Clone',
+    githubBackend: 'https://github.com/kamesh2002/FEND-45-Clone',
+    liveDemo: 'https://fend-45-clone.vercel.app/',
+    featured: false,
+  }
+ 
+];
+
 
   return (
     <section id="projects" className="min-h-screen py-20 bg-gray-50">

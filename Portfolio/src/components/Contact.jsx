@@ -10,12 +10,7 @@ const Contact = () => {
       value: 'kameshmaharajan2002@gmail',
       href: 'mailto:kameshmaharajan2002@gmail.com',
     },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '9344028529',
-      href: 'tel:+91 9344028529',
-    },
+    
     {
       icon: MapPin,
       label: 'Location',
