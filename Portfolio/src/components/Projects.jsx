@@ -35,7 +35,7 @@ const Projects = () => {
     description:
       'A simplified clone of Twitter with functionality like posting tweets, liking, and responsive UI. Frontend only.',
     image: 'https://placehold.co/600x400/E0F2F7/333333?text=Twitter+Clone',
-    techStack: ['React', 'TailwindCSS'],
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.IO'],
     githubFrontend: 'https://github.com/kamesh2002/Twitter-Clone',
     githubBackend: 'https://github.com/kamesh2002/Twitter-Clone',
     liveDemo: 'https://t-fsd-x.onrender.com/',
