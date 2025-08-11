@@ -35,6 +35,7 @@ const Home = () => {
           animate="visible"
           className="text-center"
         >
+          {/* Profile Image */}
           <motion.div variants={itemVariants} className="mb-8">
             <div className="relative w-48 h-48 mx-auto mb-8">
               <motion.div
@@ -53,6 +54,7 @@ const Home = () => {
             </div>
           </motion.div>
 
+          {/* Name */}
           <motion.h1
             variants={itemVariants}
             className="text-4xl md:text-6xl font-bold text-gray-800 mb-4"
@@ -60,6 +62,7 @@ const Home = () => {
             Hi, I'm <span className="text-sky-600">Kamesh J</span>
           </motion.h1>
 
+          {/* Bio */}
           <motion.p
             variants={itemVariants}
             className="text-lg text-gray-600 max-w-xl mx-auto mb-6"
@@ -67,21 +70,50 @@ const Home = () => {
             I'm a full-stack developer specializing in the MERN stack, passionate about building modern, responsive, and performant web applications.
           </motion.p>
 
+          {/* Social Links */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center space-x-4 mt-6"
+            className="flex flex-wrap justify-center gap-4 mt-6"
           >
-            <a href="mailto:alex@example.com" className="text-sky-600 hover:text-sky-800">
-              <Mail className="w-6 h-6" />
+            {/* Email */}
+            <a
+              href="mailto:kameshmaharajan2002@gmail.com"
+              className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-700 font-medium rounded-lg hover:bg-sky-200 transition"
+            >
+              <Mail className="w-5 h-5 mr-2" />
+              Email Me
             </a>
-            <a href="https://www.linkedin.com/in/alexjohnson" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:text-sky-800">
-              <Linkedin className="w-6 h-6" />
+
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/kamesh-jayabalan-90b757250"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-700 font-medium rounded-lg hover:bg-sky-200 transition"
+            >
+              <Linkedin className="w-5 h-5 mr-2" />
+              LinkedIn
             </a>
-            <a href="https://github.com/alexjohnson" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:text-sky-800">
-              <Github className="w-6 h-6" />
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/kamesh2002"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-700 font-medium rounded-lg hover:bg-sky-200 transition"
+            >
+              <Github className="w-5 h-5 mr-2" />
+              GitHub
             </a>
-            <a href="/Kamesh.pdf" download className="text-sky-600 hover:text-sky-800">
-              <Download className="w-6 h-6" />
+
+            {/* Resume Download */}
+            <a
+              href="/Kamesh.pdf"
+              download
+              className="inline-flex items-center px-4 py-2 bg-sky-600 text-white font-medium rounded-lg shadow hover:bg-sky-700 transition"
+            >
+              <Download className="w-5 h-5 mr-2" />
+              Download Resume
             </a>
           </motion.div>
         </motion.div>
