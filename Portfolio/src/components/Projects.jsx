@@ -14,8 +14,8 @@ const Projects = () => {
         'A real-time chat application built with the MERN stack. Features include user authentication, WebSocket-based messaging, and responsive UI.',
       image: 'https://placehold.co/600x400/E0F2F7/333333?text=Chat-Meet',
       techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.IO'],
-      githubFrontend: 'https://github.com/kamesh2002/MainChat-Meet',
-      githubBackend: 'https://github.com/kamesh2002/MainChat-Meet',
+      githubFrontend: 'https://github.com/kamesh2002/MainChat-Meet/tree/master/client-1',
+      githubBackend: 'https://github.com/kamesh2002/MainChat-Meet/tree/master/server-1',
       liveDemo: 'https://main-chat-meet-git-master-kamesh2002s-projects.vercel.app',
       featured: false,
     },
@@ -26,7 +26,7 @@ const Projects = () => {
       image: 'https://placehold.co/600x400/E0F2F7/333333?text=Budget-Track',
       techStack: ['MongoDB', 'Express', 'React', 'Node.js'],
       githubFrontend: 'https://github.com/kamesh2002/Budget-Track',
-      githubBackend: 'https://github.com/kamesh2002/Budget-Track',
+      githubBackend: 'https://github.com/kamesh2002/Budget-Track/blob/master/src/config/supabase.js',
       liveDemo: 'https://budget-track-lemon.vercel.app/',
       featured: false,
     },
@@ -49,7 +49,7 @@ const Projects = () => {
       image: 'https://placehold.co/600x400/E0F2F7/333333?text=Spotify+Clone',
       techStack: ['React', 'TailwindCSS'],
       githubFrontend: 'https://github.com/kamesh2002/FEND-45-Clone',
-      githubBackend: 'https://github.com/kamesh2002/FEND-45-Clone',
+
       liveDemo: 'https://fend-45-clone.vercel.app/',
       featured: false,
     }

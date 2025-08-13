@@ -10,9 +10,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:alex.johnson@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/kamesh2002/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/kamesh-jayabalan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:kameshmaharajan2002@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [

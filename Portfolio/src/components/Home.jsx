@@ -86,7 +86,7 @@ const Home = () => {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/kamesh-jayabalan-90b757250"
+              href="https://www.linkedin.com/in/kamesh-jayabalan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-700 font-medium rounded-lg hover:bg-sky-200 transition"

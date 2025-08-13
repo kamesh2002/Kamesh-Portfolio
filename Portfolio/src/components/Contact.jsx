@@ -57,7 +57,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'http://www.linkedin.com/in/kamesh-jayabalan-90b757250',
+      href: 'https://www.linkedin.com/in/kamesh-jayabalan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: 'hover:text-blue-600',
     },
     {
